@@ -1,0 +1,66 @@
+.navButtons {
+    width: 100%;
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+    font-size: 36px;
+    border-radius: 4px;
+
+}
+  
+  input, button {
+      font-size: 24px;
+      border-radius: 5px;
+      width: 200px;
+      text-align: center;
+      margin-right: 20px;
+      margin-left: 5px;
+  }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    }
+
+
+    
+    #btnOne {
+        background-color: white; 
+        color: black; 
+        border: 3px solid #4CAF50;
+      }
+      
+    #btnTwo {
+        background-color: white; 
+        color: black; 
+        border: 3px solid #008CBA;
+      }
+      
+    #btnThree {
+        background-color: white; 
+        color: black; 
+        border: 3px solid red;
+      }
+      
+    #btnFour {
+        background-color: white;
+        color: black;
+        border: 3px solid blue;
+      }
+      
+    #btnFive {
+        background-color: white;
+        color: black;
+        border: 3px solid green;
+      }
+
+    #btnSix {
+        background-color: white;
+        color: black;
+        border: 3px solid #8a3392;
+      }
+
+.hidden {
+    display: none;
+
+}

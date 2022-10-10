@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+    .navButtons {
+        display: block;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    }
+
+    
+}    
